@@ -1104,8 +1104,6 @@ $.magnificPopup.registerModule(AJAX_NS, {
 						xhr:jqXHR
 					};
 
-					alert("todo success");
-
 					_mfpTrigger('ParseAjax', temp);
 
 					mfp.appendContent( $(temp.data), AJAX_NS );
@@ -1126,7 +1124,6 @@ $.magnificPopup.registerModule(AJAX_NS, {
 				},
 				error: function() {
 					_removeAjaxCursor();
-					alert("todo error")
 					item.finished = item.loadError = true;
 					mfp.updateStatus('error', mfp.st.ajax.tError.replace('%url%', item.src));
 				}

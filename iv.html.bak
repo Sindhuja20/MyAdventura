@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MyAdventura</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/iv.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <link rel="stylesheet" href="assets/css/tours.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form.js"></script>
+  </head>
+  <body>
+    <!--Header -->
+      <header id="main_menu" class="header navbar-fixed-top">
+          <div class="main_menu_bg">
+              <div class="container">
+                  <div class="row">
+                      <div class="nave_menu">
+                          <nav class="navbar navbar-default">
+                              <div class="container-fluid">
+                                  <!-- Brand and toggle get grouped for better mobile display -->
+                                  <div class="navbar-header">
+                                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                      </button>
+                                      <a class="navbar-brand navbar-brand1" href="#home">
+                                          <img src="assets/images/logofinal.png" alt="Logo Icon"/>
+                                      </a>
+                                  </div>
+
+                                  <!-- Collect the nav links, forms, and other content for toggling -->
+                                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                      <ul class="nav navbar-nav navbar-right">
+                                          <li class="hover1"><a href="#home">HOME</a></li>
+                                          <dd class="products-exhibit">
+                                              <ul class="container products-exhibit-wrapper">
+                                                  <li class="main-product">
+                                                      <a class="product-image" href="" target="_self" data-stat-id="694fc20bde53a828" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-694fc20bde53a828', 'http://www.mi.com/in/mix2/', 'pcpid']);">
+                                                          <img src="assets/images/team1.jpg" alt="Mi MIX 2" width="140" height="140">
+                                                      </a>
+                                                      <a class="product-name" href="" target="_self" data-stat-id="91786d6b255171c9" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-91786d6b255171c9', 'http://www.mi.com/in/mix2/', 'pcpid']);">Mi MIX 2</a>
+                                                      <span class="product-price">₹ 32,999</span>
+                                                  </li>
+                                                  <li class="main-product">
+                                                      <a class="product-image" href="" target="_self" data-stat-id="cebdba96910b84f7" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-cebdba96910b84f7', 'http://www.mi.com/in/max2/', 'pcpid']);">
+                                                          <img src="assets/images/team2.jpg" alt="Mi Max 2" width="140" height="140">
+                                                      </a>
+                                                      <a class="product-name" href="" target="_self" data-stat-id="529d576bdedd07b8" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-529d576bdedd07b8', 'http://www.mi.com/in/max2/', 'pcpid']);">Mi Max 2</a>
+                                                      <span class="product-price">From ₹ 13,999</span>
+                                                  </li>
+                                                  <li class="main-product">
+                                                      <a class="product-image" href="" target="_self" data-stat-id="ac0546db8960f4d7" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-ac0546db8960f4d7', 'http://www.mi.com/in/mi-a1/', 'pcpid']);">
+                                                          <img src="assets/images/team3.jpg" alt="Mi A1" width="140" height="140">
+                                                      </a>
+                                                      <a class="product-name" href="" target="_self" data-stat-id="d175b3e58d813f0b" onclick="_msq.push(['trackEvent', '7f4742a0caeccc4f-d175b3e58d813f0b', 'http://www.mi.com/in/mi-a1/', 'pcpid']);">Mi A1</a>
+                                                      <span class="product-price">₹ 13,999</span>
+                                                  </li>
+                                              </ul>
+                                          </dd>
+                                          <li><a href="#service">Service</a></li>
+                                          <li><a href="#team">TEAMS</a></li>
+                                          <li><a href="#portfolio">WORKS</a></li>
+                                          <li><a href="#testimonial">Testimonial</a></li>
+                                          <li><a href="#contact">CONTACT</a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+    <!--End of Header -->
+    <div class="site wrapper-content">
+    	<div class="top_site_main" style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); background-image: url(&quot;http://travelwp.physcode.com/wp-content/uploads/2017/03/cuba.jpg&quot;); padding-top: 125px;"></div>
+			<div class="swiper-container swiper-container-menu">
+				<div class="swiper-wrapper" style="height: auto; width: auto;">
+					<div class="swiper-slide menu">Menu slide</div>
+					<div class="swiper-slide content">
+						<div class="menu-button">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+						<section class="content-area single-woo-tour">
+			    		<div class="container-iv">
+			    			<div id="tour-262" class="tb_single_tour post-262 product type-product status-publish has-post-thumbnail pa_destination-brazil pa_destination-canada pa_month-january pa_month-april pa_month-december tour_phys-escorted-tour tour_phys-rail-tour first instock shipping-taxable purchasable product-type-tour_phys">
+			    				<div class="top_content_single">
+			    					<div class="images images_single_left">
+			    						<div class="title-single">
+			    							<div class="title">
+			    								<h1>Discover Brazil</h1>
+			    							</div>
+			    							<div class="tour_code">
+			    								<strong>Code: </strong>LMJUYH
+			    							</div>
+			    						</div>
+			    						<div class="tour_after_title">
+			    							<div class="meta_date fa fa-calendar-check-o">
+			    								<span>5 DAYS - 4 NIGHTS</span>
+			    							</div>
+			    							<div class="meta_values fa fa-tags">
+			    								<span>Category:</span>
+			    								<div class="value">
+			    									<a href="http://travelwp.physcode.com/tour-category/escorted-tour/" rel="tag">Escorted Tour</a>,
+			    									<a href="http://travelwp.physcode.com/tour-category/rail-tour/" rel="tag">Rail Tour</a>
+			    								</div>
+			    							</div>
+			    							<div class="tour-share">
+			    								<ul class="share-social">
+			    									<li>
+			    										<a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftravelwp.physcode.com%2Ftours%2Fdiscover-singapore%2F" onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;">
+			    											<i class="fa fa-facebook"></i>
+			    										</a>
+			    									</li>
+			    									<li>
+			    										<a target="_blank" class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Ftravelwp.physcode.com%2Ftours%2Fdiscover-singapore%2F&amp;text=Discover Brazil" onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;">
+			    											<i class="fa fa-twitter"></i>
+			    										</a>
+			    									</li>
+			    									<li>
+			    										<a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftravelwp.physcode.com%2Ftours%2Fdiscover-singapore%2F&amp;description=Aliquam lacus nisl, viverra convallis sit amet penatibus nunc luctus&amp;media=http%3A%2F%2Ftravelwp.physcode.com%2Fwp-content%2Fuploads%2F2016%2F11%2F205b44a8-0aca-4881-bbb8-0d9ac4814be3.jpg" onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;">
+			    											<i class="fa fa-pinterest"></i>
+			    										</a>
+			    									</li>
+			    									<li>
+			    										<a target="_blank" class="googleplus" href="https://plus.google.com/share?url=http%3A%2F%2Ftravelwp.physcode.com%2Ftours%2Fdiscover-singapore%2F" onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;">
+			    											<i class="fa fa-google"></i>
+			    										</a>
+			    									</li>
+			    								</ul>
+			    							</div>
+			    						</div>
+											<!-- Swiper -->
+												<div class="swiperOuterCont">
+												  <div class="swiper-container gallery-top">
+												    <div class="swiper-wrapper">
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												    </div>
+												    <!-- Add Arrows -->
+												    <div class="swiper-button-next swiper-button-white"></div>
+												    <div class="swiper-button-prev swiper-button-white"></div>
+												  </div>
+												  <div class="swiper-container gallery-thumbs">
+												    <div class="swiper-wrapper">
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												      <div class="swiper-slide border-radius" style="background-image:url(assets/images/marvel-avengers.jpg)"></div>
+												    </div>
+												  </div>
+												</div>
+											<!--End of Swiper-->
+												<div class="tab-content" style="display:block">
+			  			            <div role="tabpanel" class="tab-pane woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" style="display: block;">
+			  										<p>Ridiculus sociis dui eu vivamus tempor justo diam aliquam. Ipsum nunc purus,pede sed placerat sit habitasse potenti eleifend magna mus sociosqu hymenaeos cras metus mi donec tortor nisi leo dignissim turpis sit torquent.</p>
+			  									</div>
+												</div>
+											</div>
+																	<div class="right-sidebar">
+																		<div class="detail-block bg-dr-blue">
+																			<h4 class="color-white">details</h4>
+																			<div class="details-desc">
+																				<p class="color-grey-9">Category:  <span class="color-white">hotels</span></p>
+																				<p class="color-grey-9">price: <span class="color-white">$500 / person</span></p>
+																				<p class="color-grey-9">location: <span class="color-white">paris, france</span></p>
+																				<p class="color-grey-9">date: <span class="color-white">july 19th to july 29th</span></p>
+																				<p class="color-grey-9">rate: <span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span></p>
+																				<p class="color-grey-9">number of people: <span class="color-white">2 adult</span></p>
+																				<p class="color-grey-9">hotel class: <span class="color-white">4 <span class="fa fa-star color-yellow"></span></span></p>
+																				<p class="color-grey-9">Bed Type: <span class="color-white">Queen Size</span></p>
+																				<p class="color-grey-9">Cable TV: <span class="color-white">FREE</span></p>
+																				<p class="color-grey-9">Telephone: <span class="color-white">YES</span></p>
+																				<p class="color-grey-9">Room Service: <span class="color-white">Included</span></p>
+																				<p class="color-grey-9">Wireless: <span class="color-white">YES</span></p>
+																				<p class="color-grey-9">Minibar: <span class="color-white">FREE</span></p>
+																				<p class="color-grey-9">CANCELLATION: <span class="color-white">STRICT</span></p>
+																			</div>
+																			<div class="details-btn">
+																				<a href="#" class="c-button b-40 bg-tr-1 hv-white"><span>view on map</span></a>
+																				<a href="#" class="c-button b-40 bg-white hv-transparent"  id="enquiry" ><span>Enquiry</span></a>
+																			</div>
+																		</div>
+																	</div>
+			  												</div>
+			  											</div>
+			  										</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+    <!--Footer-->
+      <div class="footerOuterCont">
+        <section class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="main_footer">
+                          <div class="row">
+                              <div class="col-sm-6 col-xs-12">
+                                  <div class="copyright_text">
+                                      <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://bootstrapthemes.co">Bootstrap Themes</a>2016. All Rights Reserved</p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6 col-xs-12">
+                                  <div class="flowus">
+                                      <a href=""><i class="fa fa-facebook"></i></a>
+                                      <a href=""><i class="fa fa-twitter"></i></a>
+                                      <a href=""><i class="fa fa-google-plus"></i></a>
+                                      <a href=""><i class="fa fa-instagram"></i></a>
+                                      <a href=""><i class="fa fa-youtube"></i></a>
+                                      <a href=""><i class="fa fa-dribbble"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+          <!--object class="footerCont" data="widgets/Footer/footer.html" type="text/html" width="100%" height="120px" style="overflow:hidden;"></object-->
+      </div>
+    <!--End of footer-->
+    <!--chat icon-->
+      <div class="chatIconOuterCont">
+        <img class="chaticon" src="assets/images/chaticon.png" alt="chaticon"/>
+        <div class="chatContainer">
+          <div class="form-top">
+            <div class="row">
+              <div class="panel-container">
+                <div class="panel panel-danger">
+                  <div class="panel-body">
+                    <form id="reused_form">
+                      <div class="form-group">
+                        <label >Name</label>
+                        <input type="text" name="name" required class="form-control" placeholder="Enter Name">
+                      </div>
+                      <div class="form-group">
+                        <label >Phone</label>
+                        <input type="tel" name="phone" required class="form-control" placeholder="Enter Phone Number">
+                      </div>
+                      <div class="form-group">
+                        <label >Email</label>
+                        <input type="email" name="email" required class="form-control" placeholder="Enter Email">
+                      </div>
+                      <div class="form-group">
+                        <label >Message</label>
+                        <textarea rows="3" name="message" class="form-control" id="enquiry_message" placeholder="Type Your Message"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button class="btn btn-raised btn-lg btn-warning" type="submit">Get Enquiry</button>
+                      </div>
+                    </form>
+                    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                      <h4>
+                        Error
+                      </h4>
+                      Sorry there was an error sending your form.
+                    </div>
+                    <div id="success_message" style="width:100%; height:100%; display:none; ">
+                      <h2>Success! Your Message was Sent Successfully.</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--end of chat icon-->
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/offer.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper.min.js"></script>
+
+    <!-- Offer JS -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var galleryTop = new Swiper('.gallery-top', {
+				spaceBetween: 10,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+			var galleryThumbs = new Swiper('.gallery-thumbs', {
+				spaceBetween: 10,
+				centeredSlides: true,
+				slidesPerView: 'auto',
+				touchRatio: 0.2,
+				slideToClickedSlide: true,
+			});
+			galleryTop.controller.control = galleryThumbs;
+			galleryThumbs.controller.control = galleryTop;
+		</script>
+
+		<script>
+    var menuButton = document.querySelector('.menu-button');
+    var swiperMenu = new Swiper('.swiper-container-menu', {
+      slidesPerView: 'auto',
+      initialSlide: 1,
+      resistanceRatio: 0,
+      slideToClickedSlide: true,
+      on: {
+        init: function () {
+          var slider = this;
+          menuButton.addEventListener('click', function () {
+            if (slider.activeIndex === 0) {
+              slider.slideNext();
+            } else {
+              slider.slidePrev();
+            }
+          }, true);
+        },
+        slideChange: function () {
+          var slider = this;
+          if (slider.activeIndex === 0) {
+            menuButton.classList.add('cross');
+          } else {
+            menuButton.classList.remove('cross');
+          }
+        },
+      }
+    });
+	</script>
+  </body>
+</html>

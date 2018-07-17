@@ -1952,6 +1952,7 @@ a {
 }
 .c-button.hv-transparent:hover {
      background: transparent;
+     color: #fff;
 }
 a:focus, a:hover {
      color: inherit;
@@ -2326,7 +2327,7 @@ h2.ppb_title {
   top: 43%;
   bottom: 0;
   right: 0;
-  height: 10%;
+  height: 70px;
   z-index: 5;
 }
 .chatIconOuterCont .chatContainer {

@@ -932,15 +932,17 @@ li {
   display: inline-block;
 }
 
-@media (max-width: 824px) {
+@media (max-width: 1100px) {
+  .images_single_left {
+    margin: auto;
+  }
   .swiperOuterCont {
     height: 400px;
-    width: 70%;
+    width: 90%;
     max-width: 768px;
     margin: auto;
   }
 }
-
 @media (max-width: 414px) {
   .swiperOuterCont {
     height: 300px;
@@ -982,16 +984,11 @@ li {
   justify-content: space-evenly;
   width: 100%;
 }
-.title {
-  display: flex;
-  justify-content: space-between;
-}
-
 /*side bar*/
 .single-woo-tour {
   width: 100%;
 }
-@media (max-width: 824px) {
+@media (max-width: 1100px) {
   .top_content_single {
     display: block;
   }
@@ -1016,7 +1013,7 @@ li {
   padding-right: 7%;
 }
 .images_single_left {
-  max-width: 790px;
+  max-width: 700px;
   padding-left: 2%;
 }
 .border-radius {
@@ -1066,7 +1063,7 @@ li {
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.33);
 }
-.fa-clock-o, .fa-tags {
+.fa-calendar-check-o, .fa-tags {
   color: #ff6600;
   font-size: 25px;
 }
@@ -1075,13 +1072,20 @@ li {
   float: left;
   position: relative;
   padding-top: 25px;
+  margin-right: 7px;
 }
 .meta_date, .tour-share {
   padding-top: 20px;
 }
+.meta_date span {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
 .tour_after_title {
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
 }
 .tour-text, .value {
   color: black;
@@ -1089,15 +1093,40 @@ li {
 }
 .meta_values span {
   color: #aaa;
-  font-size: 90%;
+  font-size: 70%;
   line-height: 1;
 }
 .meta_values div {
   text-transform: uppercase;
   font-weight: 700;
 }
+.value a {
+  font-size: 15px;
+}
 .meta_values {
   text-align: left;
+}
+
+@media (max-width: 600px) {
+  .tour_after_title {
+    flex-direction: column;
+  }
+  .meta_values {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .fa-tags:before {
+    float: none;
+    padding-top: 0px;
+    margin-right: 0px;
+  }
+  .value {
+    padding-left: 10px;
+  }
+  .meta_values span, .meta_values div {
+    line-height: 1.25;
+  }
 }
 .tour-text {
   color: #000;
