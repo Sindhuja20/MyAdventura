@@ -1,0 +1,22 @@
+{
+    "cityDescription": [
+        {
+            "city": "Bangalore",
+            "description": [ 
+                "Industrial visit is a part of the Education, during which students visit companies and get insight of on the internal working environment of the company.",
+                "The industrial visit also provides an insight on how companies work and also useful information related to the practical aspects of the course which cannot be visualized in lectures.",
+                "Industrial visit is a part of professional (mostly engineering / MBA / Diploma ) courses, during which students visit companies and get insight of on the internal working environment of the company.",
+                "Industry visits sensitize students to the practical challenges that organizations face in the business world."
+            ],
+            "benifitsOfIv": [
+                "For students pursuing professional education (Marketing/Finance/Operations/Supply Chain etc.), industrial visits help them gain hands-on experience of how industry operations are executed.",
+                "Industry visits bridge the gap between theoretical training and practical learning in a real-life environment.",
+                "Industry visits provide opportunity for active/interactive learning experiences in-class as well outside the classroom environment.",
+                "With industry visits, students are able to better identify their prospective areas of work in the overall organizational function.",
+                "Industry visits help enhance interpersonal skills and communication techniques.",
+                "Students become more aware of industry practices and regulations during industry visits.",
+                "Industry visits broaden the outlook of students with exposure to different workforces from different industries."
+            ]
+        }
+    ]
+}

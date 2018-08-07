@@ -29,7 +29,9 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="assets/css/swiper.min.css">
 
+    <link rel="application/json" href="assets/data/tripFixture.js">
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form.js"></script>
@@ -119,11 +121,11 @@
 			    					<div class="images images_single_left">
 			    						<div class="title-single">
 			    							<div class="title">
-			    								<h1>Discover Brazil</h1>
+			    								<h1></h1>
 			    							</div>
 			    							<div class="tour_code">
 			    								<strong>Code: </strong>
-												<strong id="trip_code">LMJUYH</strong>
+												<strong id="trip_code"></strong>
 			    							</div>
 			    						</div>
 			    						<div class="tour_after_title">
@@ -132,9 +134,7 @@
 			    							</div>
 			    							<div class="meta_values fa fa-tags">
 			    								<span>Category:</span>
-			    								<div class="value">
-			    									<a href="http://travelwp.physcode.com/tour-category/escorted-tour/" rel="tag">Escorted Tour</a>,
-			    									<a href="http://travelwp.physcode.com/tour-category/rail-tour/" rel="tag">Rail Tour</a>
+			    								<div class="value" id="tour-tags">
 			    								</div>
 			    							</div>
 			    							<div class="tour-share">
@@ -200,20 +200,6 @@
 																		<div class="detail-block bg-dr-blue">
 																			<h4 class="color-white">details</h4>
 																			<div class="details-desc">
-																				<p class="color-grey-9">Category:  <span class="color-white">hotels</span></p>
-																				<p class="color-grey-9">price: <span class="color-white">$500 / person</span></p>
-																				<p class="color-grey-9">location: <span class="color-white">paris, france</span></p>
-																				<p class="color-grey-9">date: <span class="color-white">july 19th to july 29th</span></p>
-																				<p class="color-grey-9">rate: <span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span><span class="fa fa-star color-yellow"></span></p>
-																				<p class="color-grey-9">number of people: <span class="color-white">2 adult</span></p>
-																				<p class="color-grey-9">hotel class: <span class="color-white">4 <span class="fa fa-star color-yellow"></span></span></p>
-																				<p class="color-grey-9">Bed Type: <span class="color-white">Queen Size</span></p>
-																				<p class="color-grey-9">Cable TV: <span class="color-white">FREE</span></p>
-																				<p class="color-grey-9">Telephone: <span class="color-white">YES</span></p>
-																				<p class="color-grey-9">Room Service: <span class="color-white">Included</span></p>
-																				<p class="color-grey-9">Wireless: <span class="color-white">YES</span></p>
-																				<p class="color-grey-9">Minibar: <span class="color-white">FREE</span></p>
-																				<p class="color-grey-9">CANCELLATION: <span class="color-white">STRICT</span></p>
 																			</div>
 																			<div class="details-btn">
 																				<a href="#" class="c-button b-40 bg-tr-1 hv-white"><span>view on map</span></a>
@@ -222,19 +208,13 @@
 																		</div>
 																	</div>
 																	<div class="detail-content-block clearfix">
-																		<div>
+																		<div class="trip_description">
 																			<h3>General Information About tour</h3>
-																			<p>Pellentesque ac turpis egestas, varius justo et, condimentum augue. Praesent aliquam, nisl feugiat vehicula condimentum, justo tellus scelerisque metus. Pellentesque ac turpis egestas, varius justo et, condimentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																			<img class="left-img" src="assets/images/marvel-avengers.jpg" alt="">
-																			<ul>
-																			<li>Shopping history</li>
-																			<li>Hot offers according your settings</li>
-																			<li>Multi-product search</li>
-																			<li>Opportunity to share with friends</li>
-																			<li>Hot offers according your settings</li>
-																			<li>Multi-product search</li>
-																			<li>Opportunity to share with friends</li>
-																			<li>Multi-product search</li>
+																			<p></p>
+                                      <img class="left-img" src="assets/images/marvel-avengers.jpg" alt="">
+                                      <h3>Package Includes</h3>
+																			<ul class="trip_includes">
+
 																		</ul>
 																	  </div>
 																		<div>

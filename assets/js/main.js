@@ -1,10 +1,49 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
+    function getDataCallback (response) {
+        var tripsData = response.tripsData
+        tripsData.forEach(data => {
+            $('.title h1').text(data.title)
+            $('#trip_code').text(data.code)
+            var tripTags = '<a rel="tag">' + data.category + '</a>'
+            $('.value').append( tripTags )
+            $('.meta_date span').text(data.duration)
+            $('.trip_description p').text(data.description)
+            var packageIncludesItem = []
+            var packageIncludes = data.packageIncludes
+            packageIncludes.forEach(packageItems => {
+                var packageList = '<li>' + packageItems + '</li>'
+                packageIncludesItem.push(packageList)
+            });
+            $('.trip_includes').append(packageIncludesItem)
+            var packageDetailsItem = []
+            var packageDetails = data.details
+            packageDetails.forEach(item => {
+                var packageList = '<p class="color-grey-9">'+ item.label +':<span class="color-white">' + item.value + '</span></p>'
+                packageDetailsItem.push(packageList)
+            });
+            $('.details-desc').append(packageDetailsItem)
+            console.log(data)
+        });
+    }
+
+    function getData(callback) {
+        $.ajax ({
+            url: 'https://api.myjson.com/bins/z90fs',
+            datatype: 'json',
+            type: 'get',
+            cache: false,
+            success: callback
+        });
+    }
+    
     $(window).load(function () {
         $(".loaded").fadeOut();
         $(".preloader").delay(1000).fadeOut("slow");
+        getData(getDataCallback)
     });
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
